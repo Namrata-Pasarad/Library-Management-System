@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+}
+.form1{
+    margin-top: 20px;
+    
+}
+.form1 input{
+    width: 500px;
+    height: 20px;
+    margin: 5px;
+    color: darkblue;
+    border: 5px solid skyblue;
+}
+.form1 textarea{
+    width: 500px;
+    height: 40px;
+    margin: 5px;
+    color: darkblue;
+    border: 5px solid skyblue;
+}
+.form1 input:hover{
+    border-color: darkblue;
+}
+.form1 textarea:hover{
+    border-color: darkblue;
+}

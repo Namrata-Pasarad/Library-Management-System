@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.nav_head{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(135, 207, 235);
+    /* padding: 20px 50px; */
+}
+.nav_links li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+.nav_links a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: 500;
+}
+.nav_links a:hover {
+   color: aliceblue;
+   
+}

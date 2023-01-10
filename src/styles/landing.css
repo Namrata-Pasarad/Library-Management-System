@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    /* background-image:'images/bck_.png' ; */
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../../public/images/bck_.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+}
+.landingpage h1{
+    text-align: center;
+    color: darkslateblue;
+}
+.selectLogin{
+    background-color: aliceblue;
+    width: 600px;
+    margin: 150px auto;
+    padding: 20px ;
+}
+.login{
+    display: flex;
+    justify-content: space-evenly;
+}
+.land_user button{
+    padding: 10px 15px;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 3px;
+}
+.land_admin button{
+    padding: 10px 15px;
+    background-color: rgb(238, 199, 164);
+    border: none;
+    border-radius: 3px;
+}
+.selectLogin a{
+    text-decoration: none;
+    color: darkblue;
+    
+}

@@ -1,0 +1,41 @@
+.form{
+    background-color: aliceblue;
+    width: 600px;
+    margin: 150px auto;
+    padding: 20px ;
+}
+.form button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgb(238, 199, 164);        
+    border: none;
+    border-radius: 3px;
+    color: darkblue;
+}
+.form_input{
+    text-align: center;
+}
+.form h1{
+    color: darkslateblue;
+}
+.form_input input{
+    margin: 10px 30px;
+    text-align: center;
+    padding: 10px 30px;
+    border: none;
+}
+.password label{
+    margin: 10px 17px;
+    text-align: end;
+}
+
+/* .email input{ 
+    margin: 10px 20px;
+    border: none;
+    padding: 10px 30px;
+}
+.password input{
+    margin: 10px 36px;
+    border: none;
+    padding: 10px 30px;
+} */

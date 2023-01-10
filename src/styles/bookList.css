@@ -1,0 +1,32 @@
+.body{
+   margin: 0px;
+   background-size: cover;
+
+   /* width: 100%; */
+}
+/* .book_section{ */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    /* margin: 10px; */
+/* } */
+.bookCard{
+    background-color: aliceblue;
+    text-align: center;
+    display: flex;
+    /* justify-content: space-evenly; */
+    padding: 10px 20px;
+    margin: 20px;
+    /* box-shadow: inset; */
+    
+}
+.bookCard button{
+    background-color: steelblue;
+    padding: 7px 15px;
+    border: none;
+    color: aliceblue;
+    margin: 10px;
+}
+.bookCard_detail{
+    padding-left: 200px;
+}
