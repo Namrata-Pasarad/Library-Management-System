@@ -7086,30 +7086,30 @@
       "categories": []
     },
     {
-      "title": "Revolution",
-      "categories": "Reality",
-      "authors": "Rajani Bhaghawath",
-      "pageCount": "220",
-      "shortDescription": "Curruption",
-      "longDescription": "Reality based Novel",
-      "thumnailUrl": "ww.revolution.com",
+      "title": "5 point someone ",
+      "categories": "book",
+      "authors": "Chetan Bhagath",
+      "pageCount": "180",
+      "shortDescription": "college friends story",
+      "longDescription": "about the real story of author",
+      "thumnailUrl": "",
       "id": 797
     }
   ],
   "users": [
-    {
-      "name": "Nikky",
-      "age": "22",
-      "email": "nikki@gmail.com",
-      "phoneNumber": "9448854156",
-      "id": 2
-    },
     {
       "name": "Rikky",
       "email": "rikky@gmail.com",
       "age": "25",
       "phoneNumber": "8527410369",
       "id": 5
+    },
+    {
+      "name": "Pikky",
+      "email": "pikky@gmail.com",
+      "age": "25",
+      "phoneNumber": "8880845715",
+      "id": 6
     }
   ]
 }

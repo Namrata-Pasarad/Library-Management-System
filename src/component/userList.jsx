@@ -1,4 +1,5 @@
 import { useState,useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import '../styles/userList.css'
 
 const UserList = () => {
@@ -22,6 +23,7 @@ const UserList = () => {
         // setUsers(users.filter(x=>x.id!=id))
          alert(`${name} has been deleted`)
     }
+    
     
     return (  
         <div className="userList">
