@@ -2,7 +2,10 @@ body{
     margin: 0px;
 }
 .form1{
-    margin-top: 20px;
+    margin: 20px auto;
+    background-color: aliceblue;
+    width: 600px;
+    padding: 20px;  
     
 }
 .form1 input{
@@ -24,4 +27,12 @@ body{
 }
 .form1 textarea:hover{
     border-color: darkblue;
+}
+.form1 button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: rgb(238, 199, 164);
+    border: none;
+    border-radius: 3px;
+    color: darkblue;
 }

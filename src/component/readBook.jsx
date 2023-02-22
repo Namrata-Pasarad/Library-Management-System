@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 const ReadBook = (props) => {
     let [book,setBook]=useState([])
 
-    //to get riute parameter
+    //to get route parameter
     let params=useParams()
 
     useEffect(()=>{

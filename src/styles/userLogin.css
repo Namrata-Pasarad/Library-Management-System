@@ -1,23 +1,24 @@
-.form1 {
+.form2{
     background-color: aliceblue;
     width: 600px;
     margin: 150px auto;
     padding: 20px;
 }
 
-.form1 button {
+.form2 button {
     margin-top: 20px;
     padding: 10px 15px;
     background-color: aquamarine;
     border: none;
     border-radius: 3px;
+    color: darkblue;
 }
 
-.form_input {
+.form2_input {
     text-align: center;
 }
 
-.form h1 {
+.form2 h1 {
     color: darkslateblue;
 }
 
@@ -31,4 +32,11 @@
 .password label {
     margin: 10px 17px;
     text-align: end;
+}
+.userLogin{
+    padding: 1px ;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media.istockphoto.com/id/1131612154/vector/the-concept-of-online-education-team-work-workshops-and-online-training.jpg?s=612x612&w=0&k=20&c=3YlIS9SUiUIfZ4EBy6lwxXieSc-h2poYEYQDvG7pHNQ=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }

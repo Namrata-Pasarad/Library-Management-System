@@ -28,14 +28,10 @@
     margin: 10px 17px;
     text-align: end;
 }
-
-/* .email input{ 
-    margin: 10px 20px;
-    border: none;
-    padding: 10px 30px;
+.adminLogin{
+    padding: 1px ;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://media.istockphoto.com/id/1064279702/vector/team-learning-trainings-and-seminars.jpg?s=612x612&w=0&k=20&c=BHvw0yOcnQtDTtS5HUl2nH6dPvBQeqGefRTw58WSDHI=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
-.password input{
-    margin: 10px 36px;
-    border: none;
-    padding: 10px 30px;
-} */

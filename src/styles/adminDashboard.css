@@ -1,0 +1,13 @@
+.one_text{
+    position: relative;
+    bottom: 150px;
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color:white;
+    box-shadow: 10px 10px 20px black;
+}
+body{
+    margin: 0px;
+    /* background-color: white; */
+}

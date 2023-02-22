@@ -17,27 +17,23 @@ const BookList = () => {
         fetchData()
     },[books])
     
-    let handleDelete=(id,title)=>{
-        fetch(`http://localhost:2002/books/${id}`,{
+     let handleDelete=(id,title)=>{
+    fetch(`http://localhost:2002/book/${id}`,{
         method:'DELETE'
-        //y this method delete
+       })
+       alert(`${title} will be deleted permanently`)
+   }
+   let navigate=useNavigate()
+   let read=(id)=>{
+   if(location.pathname == '/admin/book-list'){
+       navigate(`/admin/book-list/${id}`)
+   }
+   else
+   {
+      navigate(`/user/book-list/${id}`)
+   }
+}
 
-        // setBooks(books.filter(x=>x.id!=id))
-        // alert(`${title} has been deleted`)
-        });
-    alert(`${title} has been deleted`)
-    }
-
-    let navigate=useNavigate()
-    let read=(id)=>{
-        if(location.pathname=='admin/book-list'){
-            navigate(`/admin/book-list/${id}`)
-        }
-        else{
-            navigate(`/user/book-list/${id}`)
-        }
-        // navigate(`/admin/book-list/${id}`)
-    }
 
     return ( 
         <div className="booklist">
@@ -53,7 +49,7 @@ const BookList = () => {
                     <h4>Pagecount: {data.pageCount}</h4>
                     <button onClick={()=>read(data.id)} >Read More</button>
                     {/* <button onClick={()=>handleDelete(data.id,data.title)}>Delete</button> */}
-                    {location.pathname=='/admin/book-list' && <button onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
+                    {location.pathname==`/admin/book-list` && <button onClick={()=>handleDelete(data.id,data.title)}>Delete</button>}
                     </div>
                    </div> 
                 ))}
@@ -63,3 +59,12 @@ const BookList = () => {
 }
  
 export default BookList;
+
+
+
+
+
+
+
+   
+                

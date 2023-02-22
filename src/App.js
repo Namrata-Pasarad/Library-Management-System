@@ -5,6 +5,7 @@ import AdminLogin from './component/adminLogin';
 import UserLogin from './component/userLogin';
 import AdminPortal from './component/adminPortal';
 import UserPortal from './component/usePortal';
+import PageNotFound from './component/404';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path='/user-login' element={<UserLogin/>}/>
       <Route path='/admin/*' element={<AdminPortal/>}/>
       <Route path='/user/*' element={<UserPortal/>}/>
+      <Route path='*' element={<PageNotFound/>}/>
     </Routes>
     </BrowserRouter>
     </div>

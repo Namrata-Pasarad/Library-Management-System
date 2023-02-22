@@ -8,7 +8,7 @@ const UserLogin =()=>{
     }
     return(
         <div className="userLogin">
-            <div className="form1">
+            <div className="form2">
                 <h1>Login as User</h1>
                 <div className="form_input">
                     <form action="" onSubmit={login}>

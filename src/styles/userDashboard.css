@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+}
+.onetext{
+    position: relative;
+    bottom: 150px;
+    width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+    background-color:white;
+    box-shadow: 10px 10px 20px black;
+}
+.twoUser{
+    width: 100%;
+    background-color: skyblue;
+    height: 250px;
+    margin-bottom: 100px;
+ 
+}
+.twotext{
+    padding: 60px 20px;
+    text-align: center;
+}
